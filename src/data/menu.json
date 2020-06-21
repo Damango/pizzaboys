@@ -1,0 +1,253 @@
+{
+    "menu": {
+        "pizza": [
+            {
+                "name": "THE BIG HIT",
+                "toppings": [
+                    "100% Mozzerlla Cheese"
+                ],
+                "price": "$$16.99"
+            },
+            {
+                "name": "THE BAMBINO",
+                "toppings": [
+                    "Pepporoni"
+                ],
+                "price": "$$17.99"
+            },
+            {
+                "name": "BONNIE & CLYDE HAWAIIAN",
+                "toppings": [
+                    "Ham, ",
+                    "Pineapple"
+                ],
+                "price": "$$19.99"
+            },
+            {
+                "name": "A JIMMY HOFFA",
+                "toppings": [
+                    "Mushrooms, ",
+                    "Onions, ",
+                    "Peppers, ",
+                    "Black Olives."
+                ],
+                "price": "$$20.99"
+            },
+            {
+                "name": "HYMIE WEISS' REVENGE",
+                "toppings": [
+                    "Pepporoni, ",
+                    "Italian & Pork Sausage, ",
+                    "Beef, ",
+                    "Mushrooms, ",
+                    "Spinach, ",
+                    "Garlic, ",
+                    "Alfredo Sauce. "
+                ],
+                "price": "$$21.99"
+            },
+            {
+                "name": "CAPONE'S SQUEEZ",
+                "toppings": [
+                    "Pepporoni, ",
+                    "Pork Sausage, ",
+                    "Beef, ",
+                    "Mushrooms, ",
+                    "Onions & Peppers. "
+                ],
+                "price": "$$21.99"
+            },
+            {
+                "name": "MR. WHITE",
+                "toppings": [
+                    "Chicken, ",
+                    "Bacon, ",
+                    "Mushrooms, ",
+                    "Tomato, ",
+                    "Spinach, ",
+                    "Garlic, ",
+                    "Alfredo Sauce."
+                ],
+                "price": "$$21.99"
+            },
+            {
+                "name": "THE GODFATHER",
+                "toppings": [
+                    "Pepporoni, ",
+                    "Pork & Italian Sausage, ",
+                    "Beef, ",
+                    "Ham, ",
+                    "Mushrooms, ",
+                    "Onions, ",
+                    "Peppers, ",
+                    "Black Olives."
+                ],
+                "price": "$$22.99"
+            }
+        ],
+        "drinks": [
+            {
+                "name": "SODAS",
+                "toppings": [
+                    "Coke, ",
+                    "Diet Coke, ",
+                    "Coke Zero, ",
+                    "Mello Yello, ",
+                    "Mr. Pibb, ",
+                    "Sprite, ",
+                    "Lemonade,",
+                    "Root Beer."
+                ],
+                "price": "$2.25"
+            },
+            {
+                "name": "ICE TEA",
+                "toppings": [
+                    "Sweet or, ",
+                    "Unsweetened "
+                ],
+                "price": "$2.25"
+            },
+            {
+                "name": "BOTTLED WATER",
+                "toppings": [],
+                "price": "$1.75"
+            },
+            {
+                "name": "COFFEE",
+                "toppings": [],
+                "price": "$2.25"
+            },
+            {
+                "name": "ROOTBEER FLOAT",
+                "toppings": [],
+                "price": "$2.99"
+            },
+            {
+                "name": "DRAFT BEER",
+                "toppings": [
+                    "Budweiser, ",
+                    "Bug Light, ",
+                    "Shock Top, ",
+                    "Amber Bock, ",
+                    "Michelob Ultra, ",
+                    "Landshark, ",
+                    "Yuengling"
+                ],
+                "price": "$2.25"
+            },
+            {
+                "name": "BOTTLED BEER",
+                "toppings": [
+                    "Budweiser, ",
+                    "Bud Light, ",
+                    "Michelob Ultra."
+                ],
+                "price": "$3.25"
+            },
+            {
+                "name": "IMPORTS",
+                "toppings": [
+                    "CORONA"
+                ],
+                "price": "$4.75"
+            },
+            {
+                "name": "WINE",
+                "toppings": [
+                    "Chardonnay, ",
+                    "White Zinfandel, ",
+                    "Merlot."
+                ],
+                "price": "$4.25"
+            }
+        ],
+        "calzones": [
+            {
+                "name": "CHEESE",
+                "toppings": [
+                    "Red Sauce"
+                ],
+                "price": [
+                    "$8.50",
+                    "$10.99"
+                ],
+                "size": [
+                    "Half",
+                    "Whole"
+                ]
+            },
+            {
+                "name": "VEGETABLE",
+                "toppings": [
+                    "Mushrooms, ",
+                    "Peppers, ",
+                    "Meat, ",
+                    "Sausgage, ",
+                    "Beef & Red Sauce."
+                ],
+                "price": [
+                    "$9.00",
+                    "10.99"
+                ],
+                "size": [
+                    "Half",
+                    "Whole"
+                ]
+            },
+            {
+                "name": "MEAT",
+                "toppings": [
+                    "Pepporoni, ",
+                    "Italian Sausage, ",
+                    "Beef & Red Sauce."
+                ],
+                "price": [
+                    "9.50",
+                    "12.99"
+                ],
+                "size": [
+                    "Half",
+                    "Whole"
+                ]
+            },
+            {
+                "name": "ALFREDO",
+                "toppings": [
+                    "Chicken, ",
+                    "Bacon, ",
+                    "Mushrooms, ",
+                    "Tomato, ",
+                    "Spinach, ",
+                    "Garlic & Alfredo Sauce."
+                ],
+                "price": [
+                    "10.50",
+                    "14.99"
+                ],
+                "size": [
+                    "Half",
+                    "Whole"
+                ]
+            },
+            {
+                "name": "ULTIMATE",
+                "toppings": [
+                    "Pepporoni, ",
+                    "Pork Sausage, ",
+                    "Ham, ",
+                    "Mushrooms, ",
+                    "Peppers & Red Sauce."
+                ],
+                "price": [
+                    "10.50",
+                    "14.99"
+                ],
+                "size": [
+                    "Half",
+                    "Whole"
+                ]
+            }
+        ]
+    }
+}

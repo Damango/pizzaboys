@@ -1,0 +1,43 @@
+.price-divider{
+    position: relative;
+    background-color: white;
+    height: 2px;
+    width: 40px;
+    bottom: 7px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 500px){
+
+    .menu-item{
+        position: relative;
+       margin-top: 30px;
+      
+    }
+    
+    .menu-item-name{
+        font-family: "Josefin Sans";
+        font-weight: bold;
+        font-size:  17px;
+        display: inline;
+        
+    }
+    .price-divider{
+        width: 20px;
+    }
+    .menu-item-price{
+       display: inline-block;
+       font-family: Roboto;
+       font-weight: 500;
+       
+       font-size: 14px;
+    }
+    
+    .menu-item-toppings{
+        margin-top: 4px;
+        font-family: Poppins;
+        font-size: 14px;
+        width: 350px;
+    }
+
+}

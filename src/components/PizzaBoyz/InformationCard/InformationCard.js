@@ -64,7 +64,7 @@ const InformationCard = (props) => {
         }
 
         else if (differentMenu === 7) {
-            return Menu.menu.calzones.map((calzone) => <MenuItem itemName={calzone.name} itemPrice={calzone.price} itemToppings={calzone.topping} />)
+            return Menu.menu.calzones.map((calzone) => <MenuItem itemName={calzone.name} itemPrice={calzone.price} itemToppings={calzone.toppings} />)
         }
     }
 
@@ -103,19 +103,17 @@ const InformationCard = (props) => {
 
     function renderInformationCard() {
 
-        let theVideo = document.querySelector('.card-video-background-1');
+
 
         if (props.videoID === 1) {
 
             return (
                 <div>
-                    <div className="information-card-container" onMouseEnter={() => setCardState("true")} onClick={menuViewHandler}>
-                        <div className="background-video-overlay" onMouseOver={event => { theVideo.play() }}
-                            onMouseOut={event => theVideo.pause()}>
-                            <div className="information-card-title"> <i class="fas fa-pizza-slice"></i>MENU</div>
-                        </div>
-                        <video className="card-video-background-1" src={Pizza} type="video/mp4" autoPlay={cardState} loop="true" muted="true" >
-                        </video>
+                    <div className="information-card-container information-card-container-1" onClick={menuViewHandler}>
+
+                        <div className="information-card-title"> <i class="fas fa-pizza-slice"></i>MENU</div>
+
+
                     </div>
                     {renderMenuView()}
                 </div>
@@ -123,17 +121,13 @@ const InformationCard = (props) => {
         }
 
         else if (props.videoID === 2) {
-            let theVideo = document.querySelector('.card-video-background-2');
+
             return (
                 <div>
-                    <div className="information-card-container" onMouseEnter={() => setCardState("true")}>
-                        <div className="background-video-overlay" onMouseOver={event => theVideo.play()}
-                            onMouseOut={event => theVideo.pause()}>
-                            <div className="information-card-title"><i class="fas fa-phone-alt"></i>CONTACT</div>
-                        </div>
-                        <video className="card-video-background-2" src={Woman} type="video/mp4" autoplay="true" loop="true" muted="true" >
+                    <div className="information-card-container information-card-container-2">
 
-                        </video>
+                        <div className="information-card-title"><i class="fas fa-phone-alt"></i>CONTACT</div>
+
 
 
 
@@ -142,17 +136,13 @@ const InformationCard = (props) => {
         }
 
         else if (props.videoID === 3) {
-            let theVideo = document.querySelector('.card-video-background-3');
+
             return (
                 <div>
-                    <div className="information-card-container" onMouseEnter={() => setCardState("true")}>
-                        <div className="background-video-overlay" onMouseOver={event => theVideo.play()}
-                            onMouseOut={event => theVideo.pause()}>
-                            <div className="information-card-title"><i class="fas fa-info-circle"></i>MORE INFO</div>
-                        </div>
-                        <video className="card-video-background-3" src={Company} type="video/mp4" autoplay="true" loop="true" muted="true">
+                    <div className="information-card-container information-card-container-3">
 
-                        </video>
+                        <div className="information-card-title"><i class="fas fa-info-circle"></i>MORE INFO</div>
+
 
 
 

@@ -3,7 +3,7 @@ import "./MenuItem.css";
 import { useSpring, animated } from 'react-spring'
 const MenuItem = (props) => {
 
-    const menuStyle = useSpring({ from: { opacity: 0 }, to: { opacity: 1 }, config: { duration: 1000 } })
+    const menuStyle = useSpring({ from: { opacity: 0 }, to: { opacity: 1 }, config: { duration: 500 } })
 
 
 

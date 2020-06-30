@@ -169,8 +169,8 @@
                     "Red Sauce"
                 ],
                 "price": [
-                    "$8.50",
-                    "$10.99"
+                    "HALF: $8.50, ",
+                    "WHOLE: $10.99"
                 ],
                 "size": [
                     "Half",
@@ -187,8 +187,8 @@
                     "Beef & Red Sauce."
                 ],
                 "price": [
-                    "$9.00",
-                    "10.99"
+                    "HALF: $9.00, ",
+                    "WHOLE: 10.99"
                 ],
                 "size": [
                     "Half",
@@ -203,8 +203,8 @@
                     "Beef & Red Sauce."
                 ],
                 "price": [
-                    "9.50",
-                    "12.99"
+                    "HALF: $9.50, ",
+                    "WHOLE: $12.99"
                 ],
                 "size": [
                     "Half",
@@ -222,8 +222,8 @@
                     "Garlic & Alfredo Sauce."
                 ],
                 "price": [
-                    "10.50",
-                    "14.99"
+                    "HALF: $10.50, ",
+                    "WHOLE: $14.99"
                 ],
                 "size": [
                     "Half",
@@ -240,13 +240,255 @@
                     "Peppers & Red Sauce."
                 ],
                 "price": [
-                    "10.50",
-                    "14.99"
+                    "HALF: $10.50, ",
+                    "WHOLE: $14.99"
                 ],
                 "size": [
                     "Half",
                     "Whole"
                 ]
+            }
+        ],
+        "dinners": [
+            {
+                "name": "SPAGHETTI WITH SAUCE",
+                "toppings": [],
+                "price": "$7.99"
+            },
+            {
+                "name": "SPAGHETTI WITH MEATBALLS",
+                "toppings": [],
+                "price": "$8.99"
+            },
+            {
+                "name": "BAKED LASAGNA",
+                "toppings": [],
+                "price": "$9.99"
+            },
+            {
+                "name": "MANICOTTI",
+                "toppings": [],
+                "price": "$8.99"
+            },
+            {
+                "name": "CHICKEN FETTUICINI ALFREDO",
+                "toppings": [],
+                "price": "$9.99"
+            },
+            {
+                "name": "CHICKEN PARMESAN",
+                "toppings": [],
+                "price": "$9.99"
+            }
+        ],
+        "specials": [
+            {
+                "name": "TUESDAY",
+                "toppings": [
+                    "Chicken Fettuccini Alfredo (Grilled or Fried)"
+                ],
+                "price": "$7.99"
+            },
+            {
+                "name": "WEDNESDAY",
+                "toppings": [
+                    "Chicken Parmesan"
+                ],
+                "price": "$7.99"
+            },
+            {
+                "name": "THURSDAY",
+                "toppings": [
+                    "Specialty Pizza (Exlcudes Godfather)"
+                ],
+                "price": "$17.99"
+            },
+            {
+                "name": "FRIDAY",
+                "toppings": [
+                    "Baked Spaghetti"
+                ],
+                "price": "$7.99"
+            },
+            {
+                "name": "SATURDAY",
+                "toppings": [
+                    "Baked Lasagna"
+                ],
+                "price": "$7.99"
+            }
+        ],
+        "subs": [
+            {
+                "name": "THE BOSS",
+                "toppings": [
+                    "Ham, ",
+                    "Turkey, ",
+                    "Roast Beef, ",
+                    "Lettuce, ",
+                    "Tomato & Provolone Cheese."
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "SALVATORE",
+                "toppings": [
+                    "Turkey, ",
+                    "Lettuce, ",
+                    "Tomato & Provolone Cheese."
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "SCARFACE",
+                "toppings": [
+                    "Salami, ",
+                    "Lettuce, ",
+                    "Tomato & American Cheese."
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "BADA BING",
+                "toppings": [
+                    "Meatballs, ",
+                    "Red Sauce, ",
+                    "Garlic & Mozzarella Cheese."
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "KAISER SOSA",
+                "toppings": [
+                    "Ham, ",
+                    "Lettuce, ",
+                    "Tomato & Provolone Cheese."
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "BUGSY IN VEGAS",
+                "toppings": [
+                    "Black Olives, ",
+                    "Banana Peppers, ",
+                    "Mushrooms, ",
+                    "Onions, ",
+                    "Peppers",
+                    "Lettuce",
+                    "Tomato",
+                    "Garlic & Provolone Cheese"
+                ],
+                "price": "$8.99"
+            },
+            {
+                "name": "THE BIG HEIST",
+                "toppings": [
+                    "Ham, ",
+                    "Turkey, ",
+                    "Bacon, ",
+                    "Lettuce, ",
+                    "Tomato & Provolone Cheese."
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "UNCLE SONNY",
+                "toppings": [
+                    "Roast Beef, ",
+                    "Lettuce, ",
+                    "Tomato, ",
+                    "Provolone Cheese"
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "PHIL LUCKY",
+                "toppings": [
+                    "Roast Beef, ",
+                    "Mushrooms, ",
+                    "Onions, ",
+                    "Peppers, ",
+                    "Garlic & Mozzaerlla Cheese."
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "DAVINCI",
+                "toppings": [
+                    "Salami, ",
+                    "Ham, ",
+                    "Banana Peppers, ",
+                    "Lettuce, ",
+                    "Tomato & Provolone Cheese."
+                ],
+                "price": "$9.99"
+            },
+            {
+                "name": "DON'T CALL ME CHICKEN",
+                "toppings": [
+                    "Fried or Grilled Chicken, ",
+                    "Red Sauce, ",
+                    "Garlic, ",
+                    "Parmesan & Mozzarella Cheese."
+                ],
+                "price": "$9.99"
+            }
+        ],
+        "appetizers": [
+            {
+                "name": "FRIED MUSHROOMS",
+                "toppings": [
+                    "Served with Ranch or Blue Cheese"
+                ],
+                "price": "$7.99"
+            },
+            {
+                "name": "GARLIC BREAD",
+                "toppings": [],
+                "price": "3 Slices: $3.99, 6 Slices: $5.99"
+            },
+            {
+                "name": "GHEESE BREAD",
+                "toppings": [],
+                "price": "3 Slices: $5.99, 6 Slices: $8.99"
+            },
+            {
+                "name": "CHEESE STICKS",
+                "toppings": [],
+                "price": "6 Sticks: $6.99"
+            },
+            {
+                "name": "CHEESY FRIES",
+                "toppings": [
+                    "Bacon, ",
+                    "Mozzarella & Cheddar Cheese Served with Spicy Ranch Dressing."
+                ],
+                "price": "$7.99"
+            },
+            {
+                "name": "SIDE OF MEATBALLS",
+                "toppings": [],
+                "price": "$4.99"
+            },
+            {
+                "name": "CHICKEN BASKET",
+                "toppings": [
+                    "With Fries, ",
+                    "Ranch, ",
+                    "Blue Cheese, ",
+                    "Honey Mustard."
+                ],
+                "price": "$8.99"
+            },
+            {
+                "name": "DOZEN HOT, BBQ OR, NAKED WINGS",
+                "toppings": [],
+                "price": "$11.99"
+            },
+            {
+                "name": "1/2 DOZEN WINGS",
+                "toppings": [],
+                "price": "$7.99"
             }
         ]
     }

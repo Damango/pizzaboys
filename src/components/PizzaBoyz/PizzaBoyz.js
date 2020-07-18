@@ -9,7 +9,7 @@ import { animated, useSpring } from 'react-spring'
 
 const PizzaBoyz = () => {
 
-    const test = useSpring({ from: { opacity: 0 }, to: { opacity: 1 } })
+
 
     const [lineStyle, setLineStyle] = useState('menu-line-close');
     const [mobileNavBar, setMobileNavBar] = useState('mobile-nav-bar-off');
@@ -29,6 +29,16 @@ const PizzaBoyz = () => {
             setMobileNavBar("mobile-nav-bar-off");
             setMobileNavItems("nav-link-mobile-off");
             setMobileSocialItems('mobile-social-media-off')
+        }
+    }
+
+
+    function closeDropDown() {
+        if (mobileNavBar === 'mobile-nav-bar-on') {
+            setMobileNavBar("mobile-nav-bar-off");
+            setMobileNavItems("nav-link-mobile-off");
+            setMobileSocialItems('mobile-social-media-off');
+
         }
     }
 
@@ -54,6 +64,15 @@ const PizzaBoyz = () => {
     }, [])
 
 
+
+
+
+
+
+
+
+
+
     return (
         <div className="pizza-boys-web-container" id="theTop">
             <i className="fas fa-bars" onClick={dropDownMobile}></i>
@@ -70,13 +89,13 @@ const PizzaBoyz = () => {
 
                         duration={300}
                     >MENU</Link>
-                    <p className={mobileNavItems}>CONTACT</p>
-                    <p className={mobileNavItems}>GALLERY</p>
-                    <p className={mobileNavItems}>MORE INFO</p>
+                    <p className={mobileNavItems}>CONTACT<span>- Coming Soon</span></p>
+                    <p className={mobileNavItems}>GALLERY<span>- Coming Soon</span></p>
+                    <p className={mobileNavItems}>MORE INFO<span>- Coming Soon</span></p>
                     <div className={mobileSocialItems}>
                         <i className="fab fa-instagram" onClick={openInstagram}></i>
                         <i className="fab fa-facebook" onClick={openFacebook}></i>
-                        <i className="fab fa-snapchat"></i>
+
                     </div>
                 </div>
             </div>
@@ -97,14 +116,14 @@ const PizzaBoyz = () => {
 
                         duration={300}
                     >MENU</Link>
-                    <p className="nav-link">CONTACT</p>
-                    <p className="nav-link">GALLERY</p>
-                    <p className="nav-link">MORE INFO</p>
+                    <p className="nav-link" >CONTACT<span>- Coming Soon -</span></p>
+                    <p className="nav-link">GALLERY<span>- Coming Soon -</span></p>
+                    <p className="nav-link">MORE <span>- Coming Soon -</span></p>
                 </div>
                 <div className="social-media-container">
                     <i className="fab fa-instagram" onClick={openInstagram}></i>
                     <i className="fab fa-facebook" onClick={openFacebook}></i>
-                    <i className="fab fa-snapchat"></i>
+
 
                 </div>
                 <div className="nav-bar-flare">
@@ -113,8 +132,9 @@ const PizzaBoyz = () => {
                     <div className="nav-line"></div>
                 </div>
             </div>
-            <div className="right-side">
+            <div className="right-side" onClick={closeDropDown}>
                 <Link className="to-top-button"
+                    onClick={closeDropDown}
                     activeClass="active"
                     to="theTop"
                     spy={true}
@@ -130,7 +150,8 @@ const PizzaBoyz = () => {
                     </p>
                         <p> Closed Sunday & Monday</p>
 
-                        <p>(386) 325-9977</p>
+                        <a href="tel: 386-325-9977">(386) 325-9977</a>
+                        <p>FREE WIFI <i class="fas fa-wifi"></i></p>
                     </div>
                     <Link className="menu-button"
                         activeClass="active"
@@ -143,73 +164,84 @@ const PizzaBoyz = () => {
                 </div>
                 <div className="menu-container" id="theMenu">
                     <div className="pizza-container menu-section">
-                        <div className="menu-title">PIZZA</div>
+                        <div className="menu-title">PIZZA -<span className="pizza-info"> All Pies 16"</span></div>
+
                         <div className={lineStyle}></div>
                         <div className="menu-items-container pizza-menu">
                             {data.menu.pizza.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="0">
                                 <div className="item-name">{pizza.name}</div>
-                                <div className="item-toppings">{pizza.toppings}</div>
                                 <div className="item-price">{pizza.price}</div>
+                                <div className="item-toppings">{pizza.toppings}</div>
+
                             </div>)}
+                            <div className="extra-ingredients-1">- Extra ingredients are $2.50 -</div>
                         </div>
 
+                        <div className="combos-container">
+                            <div className="menu-title">COMBOS</div>
+                            <div className="menu-items-container combos-menu">
+                                {data.menu.combos.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="0">
+                                    <div className="item-name">{pizza.name}</div>
+                                    <div className="item-price">{pizza.price}</div>
+                                </div>)}
+                            </div>
+                            <div className="extra-ingredients-2">- Cheese, Pepperoni and Capone Slices Only -</div>
+                        </div>
 
                     </div>
-
-                    <div className="calzone-container menu-section">
+                    <div className="calzones-container menu-section">
                         <div className="menu-title">CALZONES</div>
                         <div className={lineStyle}></div>
                         <div className="menu-items-container calzone-menu">
                             {data.menu.calzones.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
                                 <div className="item-name">{pizza.name}</div>
+                                <div className="multi-price">
+                                    {pizza.price.map((price) => <div className="item-price-multi">{price}</div>)}
+                                </div>
+
                                 <div className="item-toppings">{pizza.toppings}</div>
-                                <div className="item-price">{pizza.price}</div>
+
                             </div>)}
+                            <div className="extra-ingredients">- Extra ingredients are $2.50 -</div>
+
                         </div>
-
-
                     </div>
-
-                    <div className="calzone-container menu-section">
+                    <div className="dinners-container menu-section">
                         <div className="menu-title">DINNERS</div>
                         <div className={lineStyle}></div>
                         <div className="menu-items-container dinners-menu">
                             {data.menu.dinners.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
                                 <div className="item-name">{pizza.name}</div>
-                                <div className="item-toppings">{pizza.toppings}</div>
                                 <div className="item-price">{pizza.price}</div>
+                                <div className="item-toppings">{pizza.toppings}</div>
+
                             </div>)}
                         </div>
-
-
                     </div>
-
-                    <div className="calzone-container menu-section">
+                    <div className="specials-container menu-section">
                         <div className="menu-title">SPECIALS</div>
                         <div className={lineStyle}></div>
                         <div className="menu-items-container specials-menu">
                             {data.menu.specials.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
                                 <div className="item-name">{pizza.name}</div>
-                                <div className="item-toppings">{pizza.toppings}</div>
                                 <div className="item-price">{pizza.price}</div>
+                                <div className="item-toppings">{pizza.toppings}</div>
+
                             </div>)}
                         </div>
-
-
                     </div>
-
                     <div className="subs-container menu-section">
                         <div className="menu-title">HOT SUBS</div>
                         <div className={lineStyle}></div>
                         <div className="menu-items-container subs-menu">
                             {data.menu.subs.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
                                 <div className="item-name">{pizza.name}</div>
-                                <div className="item-toppings">{pizza.toppings}</div>
                                 <div className="item-price">{pizza.price}</div>
+                                <div className="item-toppings">{pizza.toppings}</div>
+
                             </div>)}
                         </div>
-
-
+                        <div className="extra-ingredients">- Extra ingredients are $2.50 -</div>
                     </div>
                     <div className="drinks-container menu-section">
                         <div className="menu-title">DRINKS</div>
@@ -217,16 +249,55 @@ const PizzaBoyz = () => {
                         <div className="menu-items-container drinks-menu">
                             {data.menu.drinks.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
                                 <div className="item-name">{pizza.name}</div>
-                                <div className="item-toppings">{pizza.toppings}</div>
                                 <div className="item-price">{pizza.price}</div>
+                                <div className="item-toppings">{pizza.toppings}</div>
+
                             </div>)}
                         </div>
-
-
                     </div>
+                    <div className="appetizers-container menu-section">
+                        <div className="menu-title">APPETIZERS</div>
+                        <div className={lineStyle}></div>
+                        <div className="menu-items-container appetizer-menu">
+                            {data.menu.appetizers.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
+                                <div className="item-name">{pizza.name}</div>
+                                <div className="multi-price">
+                                    {pizza.price.map((price) => <div className="item-price-multi">{price}</div>)}
+                                </div>
+                                <div className="item-toppings">{pizza.toppings}</div>
+
+                            </div>)}
+                        </div>
+                    </div>
+                    <div className="kidz-container menu-section">
+                        <div className="menu-title">KIDZ</div>
+                        <div className={lineStyle}></div>
+                        <div className="menu-items-container kidz-menu">
+                            {data.menu.kidz.map((salad) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
+                                <div className="item-name">{salad.name}</div>
+                                <div className="item-price">{salad.price}</div>
+                                <div className="item-toppings">{salad.toppings}</div>
+
+                            </div>)}
+                        </div>
+                    </div>
+                    <div className="salads-container menu-section">
+                        <div className="menu-title">SALADS</div>
+                        <div className={lineStyle}></div>
+                        <div className="menu-items-container salads-menu">
+                            {data.menu.salads.map((salad) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
+                                <div className="item-name">{salad.name}</div>
+                                <div className="multi-price">
+                                    {salad.price.map((price) => <div className="item-price-multi">{price}</div>)}
+                                </div>
+                                <div className="item-toppings">{salad.toppings}</div>
+
+                            </div>)}
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
         </div>
     );
 }

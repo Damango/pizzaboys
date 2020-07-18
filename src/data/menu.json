@@ -42,12 +42,12 @@
                     "Mushrooms, ",
                     "Spinach, ",
                     "Garlic, ",
-                    "Alfredo Sauce. "
+                    "Red Sauce. "
                 ],
                 "price": "$21.99"
             },
             {
-                "name": "CAPONE'S SQUEEZ",
+                "name": "CAPONES' SQUEEZE",
                 "toppings": [
                     "Pepporoni, ",
                     "Pork Sausage, ",
@@ -83,6 +83,20 @@
                     "Black Olives."
                 ],
                 "price": "$22.99"
+            }
+        ],
+        "combos": [
+            {
+                "name": "1 Slice of Pizza & Side Salad",
+                "price": "$7.99"
+            },
+            {
+                "name": "2 Slices of Pizza & 1 Drink",
+                "price": "$7.99"
+            },
+            {
+                "name": "3 Slices of Pizza & 1 Drink",
+                "price": "$8.99"
             }
         ],
         "drinks": [
@@ -188,7 +202,7 @@
                 ],
                 "price": [
                     "HALF: $9.00, ",
-                    "WHOLE: 10.99"
+                    "WHOLE: $10.99"
                 ],
                 "size": [
                     "Half",
@@ -373,10 +387,10 @@
                     "Banana Peppers, ",
                     "Mushrooms, ",
                     "Onions, ",
-                    "Peppers",
-                    "Lettuce",
-                    "Tomato",
-                    "Garlic & Provolone Cheese"
+                    "Peppers, ",
+                    "Lettuce, ",
+                    "Tomato, ",
+                    "Garlic & Provolone Cheese."
                 ],
                 "price": "$8.99"
             },
@@ -440,22 +454,32 @@
                 "toppings": [
                     "Served with Ranch or Blue Cheese"
                 ],
-                "price": "$7.99"
+                "price": [
+                    "$7.99"
+                ]
             },
             {
                 "name": "GARLIC BREAD",
                 "toppings": [],
-                "price": "3 Slices: $3.99, 6 Slices: $5.99"
+                "price": [
+                    "3 Slices: $3.99",
+                    "6 Slices: $5.99"
+                ]
             },
             {
                 "name": "GHEESE BREAD",
                 "toppings": [],
-                "price": "3 Slices: $5.99, 6 Slices: $8.99"
+                "price": [
+                    "3 Slices: $5.99",
+                    "6 Slices: $8.99"
+                ]
             },
             {
                 "name": "CHEESE STICKS",
                 "toppings": [],
-                "price": "6 Sticks: $6.99"
+                "price": [
+                    "6 Sticks: $6.99"
+                ]
             },
             {
                 "name": "CHEESY FRIES",
@@ -463,12 +487,16 @@
                     "Bacon, ",
                     "Mozzarella & Cheddar Cheese Served with Spicy Ranch Dressing."
                 ],
-                "price": "$7.99"
+                "price": [
+                    "$7.99"
+                ]
             },
             {
                 "name": "SIDE OF MEATBALLS",
                 "toppings": [],
-                "price": "$4.99"
+                "price": [
+                    "$4.99"
+                ]
             },
             {
                 "name": "CHICKEN BASKET",
@@ -478,17 +506,119 @@
                     "Blue Cheese, ",
                     "Honey Mustard."
                 ],
-                "price": "$8.99"
+                "price": [
+                    "$8.99"
+                ]
             },
             {
-                "name": "DOZEN HOT, BBQ OR, NAKED WINGS",
-                "toppings": [],
-                "price": "$11.99"
+                "name": "DOZEN WINGS ",
+                "toppings": [
+                    "Hot, ",
+                    "BBQ, ",
+                    "Or Naked"
+                ],
+                "price": [
+                    "$11.99"
+                ]
             },
             {
                 "name": "1/2 DOZEN WINGS",
-                "toppings": [],
-                "price": "$7.99"
+                "toppings": [
+                    "Hot, ",
+                    "BBQ, ",
+                    "Or Naked"
+                ],
+                "price": [
+                    "$7.99"
+                ]
+            }
+        ],
+        "salads": [
+            {
+                "name": "GREEK SALAD",
+                "toppings": [
+                    "Lettuce, ",
+                    "Banana Peppers, ",
+                    "Onions, ",
+                    "Tomatoes, ",
+                    "Black Olives, ",
+                    "Ham & Feta Cheese"
+                ],
+                "price": [
+                    "SMALL: $6.99, ",
+                    "LARGE: 8.99"
+                ]
+            },
+            {
+                "name": "ANTIPASTA SALAD",
+                "toppings": [
+                    "Lettuce, ",
+                    "Banana Peppers, ",
+                    "Onions, ",
+                    "Mushrooms, ",
+                    "Black Olives, ",
+                    "Tomatoes, ",
+                    "Salami, ",
+                    "Pepporoni & Mozzerlla Cheese"
+                ],
+                "price": [
+                    "SMALL: $6.99, ",
+                    "LARGE: 8.99"
+                ]
+            },
+            {
+                "name": "GARDEN SALAD",
+                "toppings": [
+                    "Lettuce, ",
+                    "Banana Peppers, ",
+                    "Onions, ",
+                    "Mushrooms, ",
+                    "Black Olives & Tomatoes"
+                ],
+                "price": [
+                    "SMALL: $5.99, ",
+                    "LARGE: 7.99"
+                ]
+            },
+            {
+                "name": "CHEF SALAD",
+                "toppings": [
+                    "Lettuce, ",
+                    "Banana Peppers, ",
+                    "Mushrooms, ",
+                    "Black Olives, ",
+                    "Tomatoes, ",
+                    "Turkey, ",
+                    "Ham, ",
+                    "Roast Beef & Cheedar Cheese"
+                ],
+                "price": [
+                    "SMALL: $6.99, ",
+                    "LARGE: 8.99"
+                ]
+            },
+            {
+                "name": "SIDE SALAD",
+                "toppings": [
+                    "With Lettuce, Tomato & Onions"
+                ],
+                "price": [
+                    "$3.99"
+                ]
+            }
+        ],
+        "kidz": [
+            {
+                "name": "HAM & CHEESE SUB & FRIES",
+                "price": "$6.99"
+            },
+            {
+                "name": "6 CHICKEN NUGGETS & FRIES",
+                "price": "$6.99"
+            },
+            {
+                "name": "SPAGHETTI W/ MEATBALL & GARLICBREAD",
+                "price": "$6.99"
             }
         ]
     }

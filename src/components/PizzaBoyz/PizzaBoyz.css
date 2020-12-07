@@ -450,8 +450,7 @@ float: right;
 
 @media only screen and (max-width: 1920px) {
     .kidz-menu .menu-item{
-        width: 700px !important;
-    
+        width: 650px;
     }
 }
 
@@ -513,6 +512,11 @@ float: right;
 
 
   @media only screen and (max-width: 1450px){
+
+    .kidz-menu {
+        height: 380px;
+      
+    }
     .nav-link{
         font-size: 23px !important;
     }
@@ -547,10 +551,7 @@ float: right;
         width: 300px;
     }
 
-    .kidz-menu .menu-item{
-      width: 500px !important;
-       
-    }
+   
 
     .salads-menu{
         height: 400px;
@@ -673,6 +674,10 @@ float: right;
 
 
   @media only screen and (max-width: 1060px){
+
+    .kidz-menu .menu-item{
+        width: 650px;
+    }
 
     .pizza-menu .item-name{
         width: 280px !important;

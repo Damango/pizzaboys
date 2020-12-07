@@ -124,13 +124,6 @@ p{
     
 }
 
-.jumbo-info-container a{
-    text-decoration: none;
-    color: white;
-    border-bottom: 1px solid white;
-    padding-bottom: 3px;
-}
-
 .social-media-container{
    
     height: 40px;
@@ -250,7 +243,6 @@ p{
     float: right;
     background-color: #dfcabc;
     width: 100%;
-    overflow-x: hidden;
 
 }
 
@@ -298,19 +290,8 @@ p{
 .menu-item{
     position: relative;
     margin-bottom: 20px;
-    width: 550px;
+    width: 30%;
     color: #2f3640;
-
-}
-
-.kidz-menu .menu-item{
-    width: 450px;
-}
-
-
-.menu-caption{
-    font-family: Roboto;
-    font-size: 20px;
 }
 
 .item-name{
@@ -321,146 +302,142 @@ p{
 }
 
 .item-toppings{
-
+    width: 360px;
     font-family: Montserrat;
-    width: auto;
-    display: inline-block;
-    clear: both;
 
-    width: 90%;
-   
 }
 
-.item-price{
-
-width: auto;
-display: inline-block;
-float: right;
-
-font-size: 20px;
-font-weight: 600;
-}
-
-.item-price-multi{
-
-display: block;
-
-
-font-size: 20px;
-font-weight: 600;
-}
-
-.multi-price{
+.calzone-container{
     position: relative;
-    top: -10px;
-float: right;
-}
-
-.item-name{
-
-  width: auto;
-  display: inline-block;
-  float: left;
-}
-
-.menu-items-container{
-    height: 500px;
-}
-
-
-.extra-ingredients{
-    position: absolute;
-    bottom: 0px;
-
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.extra-ingredients-1{
-    position: absolute;
-    bottom: -20px;
-
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.extra-ingredients-2{
-    position: absolute;
-    bottom: 0px;
-
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-
-.combos-container .menu-title{
-
-    margin-top: 50px !important;
-
 }
 
 .menu-section{
     position: relative;
-    height:auto;
+}
+
+.extra-ingredients{
+    position: relative;
+    
+
+    bottom: 20px;
+
+    margin-top: 10px;
+
+    
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.extra-ingredients-1{
+    position: absolute;
+    
+    bottom: 0px;
+    left: 0px;
+
+  
+
+    
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.extra-ingredients-2{
+    position: absolute;
+    
+    bottom: 0px;
+
+  
+
+    
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.pizza-slices{
+    position: absolute;
+    
+
+    bottom: -20px;
+width: 420px;
+    ;
+    text-align: center;
+    font-size: 20px;
+}
+
+.item-price{
+    font-size: 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 
-.pizza-menu{
-    height: 500px;
+.pizza-info{
+    position: absolute;
+    top: 50%;
+    margin-left: 15px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.combos-container{
+    position: relative;
+    margin-top: 30px;
 }
 
-.combos-container .menu-title{
-    margin-bottom: 30px;
+
+.kidz-container{
+    height: 400px;
 }
+.kidz-container .item-name{
+    width: 600px !important;
+}
+
+.kidz-container .menu-item{
+    position: relative;
+   width: 55%;
+}
+
 
 .combos-menu{
     height: 200px;
+    margin-top: 20px;
+
 }
 
-.calzone-menu{
-    height: 300px;
+.combos-menu .menu-title{
+   position: relative;
+   top: -10px;
 }
-
-.dinners-menu{
-    height: 270px;
-}
-
-.specials-menu{
-    height: 300px;
-}
-
 .subs-menu{
-    height: 600px;
+    height: 500px;
 }
 
-.kidz-menu{
-    height: 270px;
+.appetizer-menu .item-price{
+    width: 130px;
+
+    text-align: right;
 }
 
-.salads-menu{
-    height: 320px;
+.appetizer-menu .item-name{
+    width: 330px;
 }
 
-
-
-
-
-@media only screen and (max-width: 1920px) {
-    .kidz-menu .menu-item{
-        width: 700px !important;
-    
-    }
+.salads-menu .item-price{
+    width: 130px;
 }
 
-
+.salads-menu .item-toppings{
+    width: 230px;
+}
 
   @media only screen and (max-width: 1720px) {
 
 
-  
 
     .pizza-boys-web-container{
         overflow-x: hidden;
@@ -470,11 +447,12 @@ float: right;
     .nav-bar-container{
         width: 13%;
     }
-
-  
     .menu-items-container{
- 
-        
+        display: flex;
+        flex-direction: column;
+       
+        width: 80%;
+   
 
      
     }
@@ -487,6 +465,10 @@ float: right;
         color: #2f3640;
     }
 
+    .subs-menu{
+        height: 650px !important;
+        width: 100%;
+    }
 
  
 
@@ -508,11 +490,18 @@ float: right;
      
     }
 
+    .pizza-menu{
+        height: 450px;
+    }
+
+    .drinks-menu{
+        height: 500px;
+    }
 
   }
 
 
-  @media only screen and (max-width: 1450px){
+  @media only screen and (max-width: 1400px){
     .nav-link{
         font-size: 23px !important;
     }
@@ -521,43 +510,19 @@ float: right;
         width: 100%;
     }
 
-    .subs-menu{
-        height: 700px;
-    }
   
 
-    .dinners-menu{
-        height: 320px;
+    .menu-item{
+        position: relative;
+        margin-bottom: 20px;
+        width: 35%;
+        margin-right: 20px;
+        color: #2f3640;
     }
-
-    .dinners-menu .item-name{
-        width: 300px;
-    }
-
-    .calzone-menu{
-        height: 400px;
-    }
-
 
     .appetizer-menu .item-name{
-        width: 300px;
+        width: 250px;
     }
-
-    .kidz-menu .item-name{
-        width: 300px;
-    }
-
-    .kidz-menu .menu-item{
-      width: 500px !important;
-       
-    }
-
-    .salads-menu{
-        height: 400px;
-    }
-
-
-
     
 
   }
@@ -660,91 +625,139 @@ float: right;
      
     }
 
-    .kidz-menu .item-name{
-        width:300px !important;
-    }
-
-
-    .combos-menu .item-name{
-        width: 280px !important;
-    }
-
-  }
-
-
-  @media only screen and (max-width: 1060px){
-
-    .pizza-menu .item-name{
-        width: 280px !important;
-    }
-
-    .appetizer-menu .item-name{
-        width: 240px !important;
-       
-    }
-
-    .appetizer-menu .item-price{
-        margin-left: 30px;
+    .menu-item{
+        width: 45%;
     }
 
     .appetizer-menu{
-        height: 680px;
+        width: 100%;
+        height: 400px;
     }
 
-    .menu-item{
-        width: 400px;
+    .appetizer-menu .item-name{
+        width: 300px;
     }
 
-    .kidz-menu {
-    height: 380px;
-       
+    .salads-menu {
+        width: 100%;
+        height: 500px;
     }
+
+    .salads-menu .item-toppings{
+       width: 250px;
+    }
+  }
+
+
+  @media only screen and (max-width: 950px){
+
+  .item-name{
+      font-size: 22px;
+      width: 220px;
+  }
+
+  .calzone-menu{
+      height: 430px;
+  }
+
+  .calzone-menu .item-price{
+
+
+      width: 140px;
+  }
+
+  .calzone-menu .item-toppings{
+      margin-top: 40px;
+  }
+
+  .calzone-menu .menu-item{
+      margin-bottom: 40px;
+  }
+
+
+  .appetizer-menu .item-price{
+      width: 150px;
+  }
+
 
 
   }
 
 
 
-  @media only screen and (max-width: 900px){
-  
-    .menu-item{
-        width: 90% !important;
+  @media only screen and (max-width: 840px){
+    .item-toppings{
+        width: 250px;
     }
 
     .menu-items-container{
-        height: auto !important;
+        height: 550px;
     }
 
 
-    .multi-price{
-        position: relative;
-        top: -3px;
-    float: right;
+    .dinners-menu{
+        height: 300px;
     }
 
+
+    .salads-menu{
+        height: 600px;
+    }
+
+    .salads-menu .item-toppings{
+        width: 200px;
+    }
+
+    .salads-menu .item-price{
+        width: 170px;
+    }
+
+    .appetizer-menu{
+        width: 115%;
+        height: 900px;
+    }
+
+    .subs-menu{
+        height: 1100px;
+    }
+
+    .calzone-menu{
+
+    }
+
+
+    .kidz-menu .item-price{
+        right: -40px;
+    }
+
+
+    .appetizer-menu .item-name{
+        width: 200px;
+    }
+
+
+    .pizza-slices{
+        position: absolute;
+        
+    
+        bottom: -20px;
+    width: 300px;
+        
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .salads-menu .item-name{
+        width:  300px;
+    }
   }
 
 
   @media only screen and (max-width: 600px){
-
-    .menu-section{
-        width: 92% !important;
-        left: -25px;
+    .menu-items-container{
+      width: 700px;
+        height: 800px;
     }
-
-    .pizza-menu .item-name{
-        width: 230px !important;
-    }
-
-    .combos-menu .item-name{
-        width: 230px !important;
-    }
-
-    .item-name{
-    
-        width: 200px !important;
-    }
-
 
     .jumbotron-container{
         height: 95vh;
@@ -757,64 +770,17 @@ float: right;
     }
 
     .menu-button{
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
-    .calzone-menu .item-name{
-        width: 160px !important;
-      
-    }
-
-    .extra-ingredients-2{
-
-        position: absolute;
-        bottom: 0px;
-    
-        font-size: 20px;
-        text-align: center;
-        font-weight: bold;
-        width: 300px;
-    }
+  .item-price{
+      right: 15px;
+  }
 
 
-
-    .appetizer-menu .item-name{
-        width: 180px !important;
-
-    }
-
-    .kidz-menu .item-name{
-        width: 220px !important;
-    }
-
-    .salads-menu{
-        width: 110% !important;
-       
-    }
-
-
-    
-.extra-ingredients-1{
-    position: absolute;
-    bottom: -10px;
-    
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
+  .kidz-container .item-name{
+    width: 200px !important;
 }
-
-.extra-ingredients-2{
-    position: absolute;
-    bottom: -10px;
-
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-
-
-
   
   .to-top-button{
     position: fixed;
@@ -833,7 +799,26 @@ float: right;
     z-index: 5;
 }
 
+    .pizza-menu{
+        height: 940px;
+    }
 
+    .combos-menu{
+        height: 300px;
+        margin-top: 30px;
+    
+    }
+
+    .dinners-menu{
+        height: 540px;
+    }
+
+    .specials-menu{
+        height: 470px;
+    }
+    .subs-menu{
+        height: 1300px !important;
+    }
 
     .jumbo-info-container{
      
@@ -846,7 +831,31 @@ float: right;
         font-size: 18px;
     }
 
-    
+    .drinks-menu{
+        height: 850px;
+    }
+
+    .appetizer-menu{
+        height: 900px;
+    }
+
+    .appetizer-menu .item-price{
+        right: 0px;
+        width: 130px !important;
+    }
+
+    .salads-menu .item-name{
+width: 150px;
+    }
+
+    .salads-menu{
+        height: 820px;
+    }
+
+
+    .salads-menu .item-toppings{
+        width: 250px;
+    }
 
     
   }
@@ -854,21 +863,27 @@ float: right;
   @media only screen and (max-width: 360px){
 
 
+    .appetizer-menu .item-price{
+        width: 110px;
+        right: 0px;
+    }
 
+    
+    .appetizer-menu .item-name{
+        margin-right: 20px;
+    }
+
+    .item-price{
+        right: 55px;
+    }
+
+    .menu-items-container{
+        position: relative;
+        left: -10px;
+      }
 
       .jumbo-info-container{
-          width: 95%;
-          font-size: 16px;
-      }
-
-      .extra-ingredients{
-          position: relative;
-          top: 30px;
-      }
-
-      .combos-menu .item-name{
-          font-size: 18px;
-          width: 140px !important;
+          width: 80%;
       }
 
       .menu-button{
@@ -880,28 +895,24 @@ float: right;
          height: 230px;
          width: 230px;
       }
+      
 
-      .calzone-menu .item-name{
-          width: 120px !important;
+      .salads-menu .item-toppings{
+           font-size: 14px;
       }
 
-      .appetizer-menu .item-name{
-          width: 130px !important;
-      }
-
-
-      .item-name{
-          font-size: 20px;
-         
-      }
-
-      .item-price{
-          font-size: 18px;
-      }
+      .salads-menu .item-price{
+        right: -20px;
+   }
 
   }
+
   @media only screen and (max-width: 360px){
+    .salads-menu .item-price{
+        right: 0px;
+   }
 
-
-
+   .appetizer-menu .item-price{
+    right: 15px;
+}
   }

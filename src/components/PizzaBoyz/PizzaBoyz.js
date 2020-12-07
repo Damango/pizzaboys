@@ -7,6 +7,7 @@ import "aos/dist/aos.css"
 import { Link, animateScroll as scroll } from 'react-scroll'
 import { animated, useSpring } from 'react-spring'
 
+
 const PizzaBoyz = () => {
 
 
@@ -74,6 +75,7 @@ const PizzaBoyz = () => {
 
 
     return (
+
         <div className="pizza-boys-web-container" id="theTop">
             <i className="fas fa-bars" onClick={dropDownMobile}></i>
             <div className={mobileNavBar} >
@@ -147,8 +149,9 @@ const PizzaBoyz = () => {
                     <div className="jumbo-info-container">
                         <p>919 St. Johns Ave, Palatka, FL 32177
                         Tuesday - Saturday 11:00 AM - 9:00 PM
+                        Sunday 11:30 AM - 6:30 PM
                     </p>
-                        <p> Closed Sunday & Monday</p>
+                        <p> Closed Monday</p>
 
                         <a href="tel: 386-325-9977">(386) 325-9977</a>
                         <p>FREE WIFI <i class="fas fa-wifi"></i></p>
@@ -208,15 +211,19 @@ const PizzaBoyz = () => {
                     </div>
                     <div className="dinners-container menu-section">
                         <div className="menu-title">DINNERS</div>
+
                         <div className={lineStyle}></div>
                         <div className="menu-items-container dinners-menu">
+
                             {data.menu.dinners.map((pizza) => <div className="menu-item" data-aos='fade-down' data-aos-once="true" data-aos-offset="-20">
                                 <div className="item-name">{pizza.name}</div>
                                 <div className="item-price">{pizza.price}</div>
                                 <div className="item-toppings">{pizza.toppings}</div>
 
                             </div>)}
+
                         </div>
+                        <div className="menu-caption">All Dinners Served With Two Pieces of Garlic Bread</div>
                     </div>
                     <div className="specials-container menu-section">
                         <div className="menu-title">SPECIALS</div>
@@ -240,7 +247,9 @@ const PizzaBoyz = () => {
                                 <div className="item-toppings">{pizza.toppings}</div>
 
                             </div>)}
+
                         </div>
+                        <div className="menu-caption">All Subs Served With Choice of Chips and A Pickle</div>
                         <div className="extra-ingredients">- Extra ingredients are $2.50 -</div>
                     </div>
                     <div className="drinks-container menu-section">
@@ -299,6 +308,7 @@ const PizzaBoyz = () => {
                 </div>
             </div>
         </div>
+
     );
 }
 

@@ -4,14 +4,14 @@
             {
                 "name": "THE BIG HIT",
                 "toppings": [
-                    "100% Mozzerlla Cheese"
+                    "100% Mozzarella Cheese & Red Sauce."
                 ],
                 "price": "$16.99"
             },
             {
                 "name": "THE BAMBINO",
                 "toppings": [
-                    "Pepporoni"
+                    "Pepperoni & Red Sauce."
                 ],
                 "price": "$17.99"
             },
@@ -19,7 +19,7 @@
                 "name": "BONNIE & CLYDE HAWAIIAN",
                 "toppings": [
                     "Ham, ",
-                    "Pineapple"
+                    "Pineapple & Red Sauce."
                 ],
                 "price": "$19.99"
             },
@@ -29,19 +29,17 @@
                     "Mushrooms, ",
                     "Onions, ",
                     "Peppers, ",
-                    "Black Olives."
+                    "Black Olives & Red Sauce"
                 ],
                 "price": "$20.99"
             },
             {
                 "name": "HYMIE WEISS' REVENGE",
                 "toppings": [
-                    "Pepporoni, ",
-                    "Italian & Pork Sausage, ",
+                    "Pepperoni, ",
+                    "Italian and Pork Sausage, ",
                     "Beef, ",
-                    "Mushrooms, ",
-                    "Spinach, ",
-                    "Garlic, ",
+                    "Bacon & ",
                     "Red Sauce. "
                 ],
                 "price": "$21.99"
@@ -49,11 +47,11 @@
             {
                 "name": "CAPONES' SQUEEZE",
                 "toppings": [
-                    "Pepporoni, ",
+                    "Pepperoni, ",
                     "Pork Sausage, ",
                     "Beef, ",
                     "Mushrooms, ",
-                    "Onions & Peppers. "
+                    "Onions, Peppers & Red Sauce"
                 ],
                 "price": "$21.99"
             },
@@ -65,22 +63,22 @@
                     "Mushrooms, ",
                     "Tomato, ",
                     "Spinach, ",
-                    "Garlic, ",
-                    "Alfredo Sauce."
+                    "Garlic & ",
+                    "White Sauce."
                 ],
                 "price": "$21.99"
             },
             {
                 "name": "THE GODFATHER",
                 "toppings": [
-                    "Pepporoni, ",
+                    "Pepperoni, ",
                     "Pork & Italian Sausage, ",
                     "Beef, ",
                     "Ham, ",
                     "Mushrooms, ",
                     "Onions, ",
                     "Peppers, ",
-                    "Black Olives."
+                    "Black Olives & Red Sauce."
                 ],
                 "price": "$22.99"
             }
@@ -196,9 +194,9 @@
                 "toppings": [
                     "Mushrooms, ",
                     "Peppers, ",
-                    "Meat, ",
-                    "Sausgage, ",
-                    "Beef & Red Sauce."
+                    "Black Olives, ",
+                    "Onions & ",
+                    "Red Sauce."
                 ],
                 "price": [
                     "HALF: $9.00, ",
@@ -212,7 +210,7 @@
             {
                 "name": "MEAT",
                 "toppings": [
-                    "Pepporoni, ",
+                    "Pepperoni, ",
                     "Italian Sausage, ",
                     "Beef & Red Sauce."
                 ],
@@ -247,7 +245,7 @@
             {
                 "name": "ULTIMATE",
                 "toppings": [
-                    "Pepporoni, ",
+                    "Pepperoni, ",
                     "Pork Sausage, ",
                     "Ham, ",
                     "Mushrooms, ",
@@ -285,7 +283,7 @@
                 "price": "$8.99"
             },
             {
-                "name": "CHICKEN FETTUICINI ALFREDO",
+                "name": "CHICKEN FETTUCCINE ALFREDO",
                 "toppings": [],
                 "price": "$9.99"
             },
@@ -410,8 +408,8 @@
                 "toppings": [
                     "Roast Beef, ",
                     "Lettuce, ",
-                    "Tomato, ",
-                    "Provolone Cheese"
+                    "Tomato & ",
+                    "Provolone Cheese."
                 ],
                 "price": "$9.99"
             },
@@ -452,7 +450,7 @@
             {
                 "name": "FRIED MUSHROOMS",
                 "toppings": [
-                    "Served with Ranch or Blue Cheese"
+                    "Served with Ranch or Blue Cheese."
                 ],
                 "price": [
                     "$7.99"
@@ -467,7 +465,7 @@
                 ]
             },
             {
-                "name": "GHEESE BREAD",
+                "name": "CHEESE BREAD",
                 "toppings": [],
                 "price": [
                     "3 Slices: $5.99",
@@ -503,7 +501,7 @@
                 "toppings": [
                     "With Fries, ",
                     "Ranch, ",
-                    "Blue Cheese, ",
+                    "Blue Cheese & ",
                     "Honey Mustard."
                 ],
                 "price": [
@@ -515,14 +513,14 @@
                 "toppings": [
                     "Hot, ",
                     "BBQ, ",
-                    "Or Naked"
+                    "Or Naked."
                 ],
                 "price": [
                     "$11.99"
                 ]
             },
             {
-                "name": "1/2 DOZEN WINGS",
+                "name": "1/2. DOZEN WINGS",
                 "toppings": [
                     "Hot, ",
                     "BBQ, ",
@@ -542,7 +540,7 @@
                     "Onions, ",
                     "Tomatoes, ",
                     "Black Olives, ",
-                    "Ham & Feta Cheese"
+                    "Ham & Feta Cheese."
                 ],
                 "price": [
                     "SMALL: $6.99, ",
@@ -559,7 +557,7 @@
                     "Black Olives, ",
                     "Tomatoes, ",
                     "Salami, ",
-                    "Pepporoni & Mozzerlla Cheese"
+                    "Pepperoni & Mozzerlla Cheese."
                 ],
                 "price": [
                     "SMALL: $6.99, ",
@@ -573,7 +571,7 @@
                     "Banana Peppers, ",
                     "Onions, ",
                     "Mushrooms, ",
-                    "Black Olives & Tomatoes"
+                    "Black Olives & Tomatoes."
                 ],
                 "price": [
                     "SMALL: $5.99, ",
@@ -590,7 +588,7 @@
                     "Tomatoes, ",
                     "Turkey, ",
                     "Ham, ",
-                    "Roast Beef & Cheedar Cheese"
+                    "Roast Beef & Cheedar Cheese."
                 ],
                 "price": [
                     "SMALL: $6.99, ",
@@ -600,7 +598,7 @@
             {
                 "name": "SIDE SALAD",
                 "toppings": [
-                    "With Lettuce, Tomato & Onions"
+                    "With Lettuce, Tomato & Onions."
                 ],
                 "price": [
                     "$3.99"
@@ -617,7 +615,7 @@
                 "price": "$6.99"
             },
             {
-                "name": "SPAGHETTI W/ MEATBALL & GARLICBREAD",
+                "name": "SPAGHETTI W/ MEATBALL & GARLIC BREAD",
                 "price": "$6.99"
             }
         ]

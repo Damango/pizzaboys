@@ -36,7 +36,7 @@
 					"Pork Sausage, ",
 					"Beef, ",
 					"Mushrooms, ",
-					"Onions, Peppers & Mozzerlla Cheese."
+					"Onions, Peppers & Mozzarella Cheese."
 				],
 				"price": "$24.99"
 			},
@@ -47,7 +47,7 @@
 					"Italian and Pork Sausage, ",
 					"Beef, ",
 					"Bacon & ",
-					"Mozzerlla Cheese. "
+					"Mozzarella Cheese. "
 				],
 				"price": "$24.99"
 			},
@@ -57,7 +57,7 @@
 					"Mushrooms, ",
 					"Onions, ",
 					"Bell Peppers, ",
-					"Black Olives & Mozzerlla Cheese"
+					"Black Olives & Mozzarella Cheese"
 				],
 				"price": "$23.99"
 			},
@@ -569,12 +569,6 @@
 				"name": "FRENCH FRIES",
 				"toppings": ["Served with ketchup or dressing of choice."],
 				"price": ["$3.99"]
-			},
-			{
-				"name": "BOWL OF ZUPPA TOSCANA ",
-				"note": "(WHEN AVAILABLE)",
-				"toppings": [],
-				"price": ["$4.99"]
 			}
 		],
 		"salads": [
@@ -600,7 +594,7 @@
 					"Black Olives, ",
 					"Diced Tomatoes, ",
 					"Salami, ",
-					"Pepperoni, Mozzerlla"
+					"Pepperoni, Mozzarella"
 				],
 				"price": ["SMALL: $8.99, ", "LARGE: $10.99"]
 			},
